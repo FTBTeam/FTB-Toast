@@ -1,6 +1,5 @@
 package dev.ftb.ftbtoasts.mixin;
 
-import net.minecraft.client.particle.Particle;
 import net.minecraft.client.tutorial.Tutorial;
 import net.minecraft.client.tutorial.TutorialStepInstance;
 import org.jetbrains.annotations.Nullable;
