@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "ftbtoasts",
+  "version": "${version}",
+  "name": "FTB Toasts",
+  "description": "Removes some of the annoy toasts",
+  "authors": [
+    "FTB Team"
+  ],
+  "contact": {
+    "homepage": "https://feed-the-beast.com/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "ARR",
+  "icon": "assets/examplemod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.ftb.ftbtoasts.FTBToasts"
+    ]
+  },
+  "mixins": [
+    "ftbtoasts.mixins.json",
+    "ftbtoasts-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.19"
+  }
+}

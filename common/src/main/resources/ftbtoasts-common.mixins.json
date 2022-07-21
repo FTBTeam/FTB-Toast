@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "dev.ftb.ftbtoasts.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "client": [
+    "TutorialMixin"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
